@@ -34,6 +34,7 @@ CREATE TABLE Project (
 );
 
 INSERT INTO Project (ProjectName, ProjectLink, ProjectDescription) VALUES 
+('Spring Boot App','https://github.com/cgadd21/Spring-Boot', 'Developed a Spring Boot application with CRUD capabilities, utilizing MySQL for data management.'),
 ('Vanilla Website','https://github.com/cgadd21/PersonalWebSite','Connect to MySQL database using MySQLi API using PHP to display information on each page. Connect to Weather API using PHP to display information from my home weather station. Wrote custom JavaScript for menu highlighter.'),
 ('Faculty Research Database','https://github.com/cgadd21/Faculty-Research-Database','Designed a database application enabling faculty, students, and guests to efficiently search and connect based on the school''s research interests, fostering collaboration and project mentorship.'),
 ('Blazor WebAssembly App','https://github.com/cgadd21/Blazor-WebAssembly','Created custom classes to map data to from Dapper queries. Used dependency injection in razor pages to display information from MySQL Database.'),

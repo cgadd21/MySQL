@@ -2,13 +2,13 @@ DROP DATABASE IF EXISTS PersonalWebDatabase;
 CREATE DATABASE PersonalWebDatabase;
 USE PersonalWebDatabase;
 
-CREATE TABLE Skill (
-    SkillId INT AUTO_INCREMENT PRIMARY KEY,
-    Category VARCHAR(50),
-    SkillName VARCHAR(50)
+CREATE TABLE skill (
+    skillId INT AUTO_INCREMENT PRIMARY KEY,
+    category VARCHAR(50),
+    skillName VARCHAR(50)
 );
 
-INSERT INTO Skill (Category, SkillName) VALUES 
+INSERT INTO skill (category, skillName) VALUES 
 ('Programming Languages', 'Java'),
 ('Programming Languages', 'C#'),
 ('Programming Languages','Python'),
@@ -26,14 +26,15 @@ INSERT INTO Skill (Category, SkillName) VALUES
 ('Frameworks', 'Spring Boot'),
 ('Frameworks', 'Blazor WebAssembly');
 
-CREATE TABLE Project (
-    ProjectId INT AUTO_INCREMENT PRIMARY KEY,
-    ProjectName VARCHAR(100),
-    ProjectLink VARCHAR(255),
-    ProjectDescription TEXT
+CREATE TABLE project (
+    projectId INT AUTO_INCREMENT PRIMARY KEY,
+    projectName VARCHAR(100),
+    projectLink VARCHAR(255),
+    projectDescription TEXT
 );
 
-INSERT INTO Project (ProjectName, ProjectLink, ProjectDescription) VALUES 
+INSERT INTO project (projectName, projectLink, projectDescription) VALUES 
+('Angular Website','https://github.com/cgadd21/Angular','I independently developed a web app with Angular, emphasizing clean code and efficient data handling using TypeScript and Angular services. This project demonstrates my technical proficiency in front-end development.'),
 ('Spring Boot App','https://github.com/cgadd21/Spring-Boot', 'Developed a Spring Boot application with CRUD capabilities, utilizing MySQL for data management.'),
 ('Vanilla Website','https://github.com/cgadd21/PersonalWebSite','Connect to MySQL database using MySQLi API using PHP to display information on each page. Connect to Weather API using PHP to display information from my home weather station. Wrote custom JavaScript for menu highlighter.'),
 ('Faculty Research Database','https://github.com/cgadd21/Faculty-Research-Database','Designed a database application enabling faculty, students, and guests to efficiently search and connect based on the school''s research interests, fostering collaboration and project mentorship.'),
@@ -45,46 +46,46 @@ INSERT INTO Project (ProjectName, ProjectLink, ProjectDescription) VALUES
 ('Java Database', 'https://github.com/cgadd21/Advanced-Java/tree/main/Projects/Final%20Project/Project4Gadd/src/main/java/com/example/finalprojectbase', 'Incorporated JavaFx to generate a database for users to interact with.'),
 ('Python Media Player', 'https://github.com/cgadd21/Intro-to-Python/blob/main/Week%2015/myplayer.py', 'Created interface that loads files from folder, with all media controls.');
 
-CREATE TABLE Education (
-    EducationId INT AUTO_INCREMENT PRIMARY KEY,
-    InstitutionName VARCHAR(100),
-    Degree VARCHAR(100),
-    GraduationYear INT
+CREATE TABLE education (
+    educationId INT AUTO_INCREMENT PRIMARY KEY,
+    institutionName VARCHAR(100),
+    degree VARCHAR(100),
+    graduationYear INT
 );
 
-INSERT INTO Education (InstitutionName, Degree, GraduationYear) VALUES 
+INSERT INTO education (institutionName, degree, graduationYear) VALUES 
 ('Rochester Institute of Technology', 'Bachelor\'s degree, Computing and Information Technology', 2024),
 ('Monroe Community College', 'Associate\'s degree, Information Technology', 2022),
 ('Attica Senior High School', 'High School Diploma', 2020),
 ('TestOut Corporation', 'Certified PC Pro', 2019);
 
-CREATE TABLE Experience (
-    ExperienceId INT AUTO_INCREMENT PRIMARY KEY,
-    JobTitle VARCHAR(100),
-    CompanyName VARCHAR(100),
-    EmploymentType VARCHAR(50),
-    StartDate DATE,
-    EndDate DATE,
-    Description TEXT,
-    Link VARCHAR(255)
+CREATE TABLE experience (
+    experienceId INT AUTO_INCREMENT PRIMARY KEY,
+    jobTitle VARCHAR(100),
+    companyName VARCHAR(100),
+    employmentType VARCHAR(50),
+    startDate DATE,
+    endDate DATE,
+    description TEXT,
+    link VARCHAR(255)
 );
 
-INSERT INTO Experience (JobTitle, CompanyName, EmploymentType, StartDate, EndDate, Description, Link) VALUES 
+INSERT INTO experience (jobTitle, companyName, employmentType, startDate, endDate, description, link) VALUES 
 ('Software Engineer', 'Attica Package Company Inc.', 'Freelance', '2022-12-01', NULL, 'Created and hosted a company website. Developed a SQL database application using Microsoft Access to streamline material tracking, replacing Excel sheets. Automated report calculations and enabled data querying based on custom parameters.','https://atticapackageco.com/'),
 ('Software Engineer', 'Touchstone Technology Inc.', 'Internship', '2023-03-01', '2023-12-31', 'Created a Blazor WebAssembly web app for logging employee assignments, generating reports,
 tracking inventory and yield, printing labels, displaying schedules, and searching part details. Implemented APIs for HTTPS requests to SQL database using Dapper. Integrated GitLab for version control. Enhanced sister company''s WinForms app by fixing device activation and miscellaneous bugs and upgrading to label printing from laser engraving.','https://touchstn.com/'),
 ('Product Zone Specialist', 'Apple', 'Full-time', '2021-07-01', '2022-01-31', 'Assisted customers in finding a device to match their needs. Developed skills in many departments to become more well-rounded, and to aid co-workers. Opened, closed, and prepared the store for review from upper management. Supported new co-workers training process through shadowing and reverse shadowing. Collaborated with co-workers to improve techniques and solve problems. First on waitlist when returning to store for seasonal employment.','https://www.apple.com/'),
 ('Produce Clerk', 'Tops Friendly Markets', 'Part-time', '2018-12-01', '2022-08-31', 'Managed inventory of various food items in the produce department. Created displays around the store to increase customer experience. Set up store for company executives. Recognized tasks that needed completion. Directed co-workers on daily tasks. Assisted other departments when called upon.','https://www.topsmarkets.com/');
 
-CREATE TABLE Volunteer (
-    VolunteerId INT AUTO_INCREMENT PRIMARY KEY,
-    JobTitle VARCHAR(100),
-    CompanyName VARCHAR(100),
-    Description TEXT,
-    Link VARCHAR(255)
+CREATE TABLE volunteer (
+    volunteerId INT AUTO_INCREMENT PRIMARY KEY,
+    jobTitle VARCHAR(100),
+    companyName VARCHAR(100),
+    description TEXT,
+    link VARCHAR(255)
 );
 
-INSERT INTO Volunteer (JobTitle, CompanyName, Description, Link) VALUES 
+INSERT INTO volunteer (jobTitle, companyName, description, link) VALUES 
 ('Volunteer', 'Gateway Home Attica', 'Set up, worked, and took down fundraising events. Constructed concrete walkway outside the home. Assisted with technical setup.','https://gatewayhomeattica.org/'),
 ('Volunteer', 'Attica First Baptist Building Bridges', 'Helped those in need inside the community. Built a handicap ramp for a resident.', NULL),
 ('Audio Visual Specialist', 'Attica First Baptist Church', 'Trained others on how to use PowerPoint and analog soundboard. Operated software that allows for smooth service.','https://www.fbcattica.org/');

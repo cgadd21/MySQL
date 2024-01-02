@@ -35,7 +35,7 @@ CREATE TABLE project (
 
 INSERT INTO project (projectName, projectLink, projectDescription) VALUES 
 ('Angular Website','https://github.com/cgadd21/Angular','I independently developed a web app with Angular, emphasizing clean code and efficient data handling using TypeScript and Angular services. This project demonstrates my technical proficiency in front-end development.'),
-('Lumen App','https://github.com/cgadd21/Lumen','Built a powerful API using Lumen framework, boosting system speed and reliability. Leveraged top-notch tech for a smooth and efficient backend solution, showcasing expertise in scalable and robust development.')
+('Lumen App','https://github.com/cgadd21/Lumen','Built a powerful API using Lumen framework, boosting system speed and reliability. Leveraged top-notch tech for a smooth and efficient backend solution, showcasing expertise in scalable and robust development.'),
 ('Spring Boot App','https://github.com/cgadd21/Spring-Boot', 'Developed a Spring Boot application with CRUD capabilities, utilizing MySQL for data management.'),
 ('Vanilla Website','https://github.com/cgadd21/PersonalWebSite','Connect to MySQL database using MySQLi API using PHP to display information on each page. Connect to Weather API using PHP to display information from my home weather station. Wrote custom JavaScript for menu highlighter.'),
 ('Faculty Research Database','https://github.com/cgadd21/Faculty-Research-Database','Designed a database application enabling faculty, students, and guests to efficiently search and connect based on the school''s research interests, fostering collaboration and project mentorship.'),

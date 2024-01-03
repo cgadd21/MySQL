@@ -9,8 +9,8 @@ CREATE TABLE skill (
 );
 
 INSERT INTO skill (category, skillName) VALUES 
-('Programming Languages', 'Java'),
 ('Programming Languages', 'C#'),
+('Programming Languages', 'Java'),
 ('Programming Languages','Python'),
 ('Web Development', 'PHP'),
 ('Web Development', 'TypeScript'),
@@ -19,12 +19,13 @@ INSERT INTO skill (category, skillName) VALUES
 ('Web Development', 'HTML'),
 ('Database Technologies', 'SQL'),
 ('Database Technologies', 'MySQL'),
-('Version Control', 'Gitlab'),
 ('Version Control', 'GitHub'),
+('Version Control', 'GitLab'),
 ('Version Control', 'SourceTree'),
 ('Frameworks', 'Angular'),
-('Frameworks', 'Spring Boot'),
-('Frameworks', 'Blazor WebAssembly');
+('Frameworks', 'Blazor WebAssembly'),
+('Frameworks', 'Lumen'),
+('Frameworks','Spring Boot');
 
 CREATE TABLE project (
     projectId INT AUTO_INCREMENT PRIMARY KEY,

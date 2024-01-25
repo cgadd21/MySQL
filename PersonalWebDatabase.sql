@@ -23,8 +23,8 @@ INSERT INTO skill (category, skillName) VALUES
 ('Version Control', 'GitLab'),
 ('Version Control', 'SourceTree'),
 ('Frameworks', 'Angular'),
-('Frameworks', 'Express.js'),
 ('Frameworks', 'Blazor WebAssembly'),
+('Frameworks', 'Express.js'),
 ('Frameworks', 'Lumen'),
 ('Frameworks','Spring Boot');
 

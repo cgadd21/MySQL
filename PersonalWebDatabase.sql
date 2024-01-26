@@ -25,6 +25,7 @@ INSERT INTO skill (category, skillName) VALUES
 ('Frameworks', 'Angular'),
 ('Frameworks', 'Blazor WebAssembly'),
 ('Frameworks', 'Express.js'),
+('Frameworks', 'Flask'),
 ('Frameworks', 'Lumen'),
 ('Frameworks','Spring Boot');
 
@@ -38,6 +39,7 @@ CREATE TABLE project (
 INSERT INTO project (projectName, projectLink, projectDescription) VALUES 
 ('Angular Website','https://github.com/cgadd21/Angular','I independently developed a web app with Angular, emphasizing clean code and efficient data handling using TypeScript and Angular services. This project demonstrates my technical proficiency in front-end development.'),
 ('Express.js App','https://github.com/cgadd21/Express','Developed an Express.js app to showcase proficiency in backend web development. This project serves as a demonstration of creating RESTful APIs, implementing CRUD operations, and managing data for a portfolio application.'),
+('Flask App','https://github.com/cgadd21/Flask','Developed a Flask app that seamlessly integrates CRUD functions into a RESTful API for efficient and scalable interactions with a MySQL database.'),
 ('Lumen App','https://github.com/cgadd21/Lumen','Built a powerful API using Lumen framework, boosting system speed and reliability. Leveraged top-notch tech for a smooth and efficient backend solution, showcasing expertise in scalable and robust development.'),
 ('Spring Boot App','https://github.com/cgadd21/Spring-Boot', 'Developed a Spring Boot application with CRUD capabilities, utilizing MySQL for data management.'),
 ('Vanilla Website','https://github.com/cgadd21/PersonalWebSite','Connect to MySQL database using MySQLi API using PHP to display information on each page. Connect to Weather API using PHP to display information from my home weather station. Wrote custom JavaScript for menu highlighter.'),

@@ -10,6 +10,7 @@ CREATE TABLE skill (
 
 INSERT INTO skill (category, skillName) VALUES 
 ('Programming Languages', 'C#'),
+('Programming Languages', 'Go'),
 ('Programming Languages', 'Java'),
 ('Programming Languages','Python'),
 ('Web Development', 'PHP'),
@@ -37,6 +38,7 @@ CREATE TABLE project (
 );
 
 INSERT INTO project (projectName, projectLink, projectDescription) VALUES 
+('Go API','https://github.com/cgadd21/Go','Developed a Go API for CRUD operations, interfaced with a MySQL database, offering RESTful endpoints for creating, reading, updating, and deleting records while ensuring data integrity through validation and secure coding practices.'),
 ('Angular Website','https://github.com/cgadd21/Angular','I independently developed a web app with Angular, emphasizing clean code and efficient data handling using TypeScript and Angular services. This project demonstrates my technical proficiency in front-end development.'),
 ('Express.js App','https://github.com/cgadd21/Express','Developed an Express.js app to showcase proficiency in backend web development. This project serves as a demonstration of creating RESTful APIs, implementing CRUD operations, and managing data for a portfolio application.'),
 ('Flask App','https://github.com/cgadd21/Flask','Developed a Flask app that seamlessly integrates CRUD functions into a RESTful API for efficient and scalable interactions with a MySQL database.'),

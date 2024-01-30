@@ -20,14 +20,16 @@ INSERT INTO skill (category, skillName) VALUES
 ('Web Development', 'HTML'),
 ('Database Technologies', 'SQL'),
 ('Database Technologies', 'MySQL'),
+('Database Technologies', 'PostgreSQL'),
 ('Version Control', 'GitHub'),
 ('Version Control', 'GitLab'),
 ('Version Control', 'SourceTree'),
 ('Frameworks', 'Angular'),
-('Frameworks', 'Blazor WebAssembly'),
-('Frameworks', 'Express.js'),
+('Frameworks', 'Blazor'),
+('Frameworks', 'Express'),
 ('Frameworks', 'Flask'),
 ('Frameworks', 'Lumen'),
+('Frameworks', 'React'),
 ('Frameworks','Spring Boot');
 
 CREATE TABLE project (

@@ -96,6 +96,4 @@ CREATE TABLE volunteer (
 );
 
 INSERT INTO volunteer (jobTitle, companyName, description, link) VALUES 
-('Volunteer', 'Gateway Home Attica', 'Set up, worked, and took down fundraising events. Constructed concrete walkway outside the home. Assisted with technical setup.','https://gatewayhomeattica.org/'),
-('Volunteer', 'Attica First Baptist Building Bridges', 'Helped those in need inside the community. Built a handicap ramp for a resident.', NULL),
-('Audio Visual Specialist', 'Attica First Baptist Church', 'Trained others on how to use PowerPoint and analog soundboard. Operated software that allows for smooth service.','https://www.fbcattica.org/');
+('Volunteer', 'Gateway Home Attica', 'Set up, worked, and took down fundraising events. Constructed concrete walkway outside the home. Assisted with technical setup.','https://gatewayhomeattica.org/');

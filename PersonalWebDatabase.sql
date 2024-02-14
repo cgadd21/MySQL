@@ -13,6 +13,7 @@ INSERT INTO skill (category, skillName) VALUES
 ('Programming Languages', 'Go'),
 ('Programming Languages', 'Java'),
 ('Programming Languages','Python'),
+('Programming Languages','Swift'),
 ('Web Development', 'PHP'),
 ('Web Development', 'TypeScript'),
 ('Web Development', 'JavaScript'),
@@ -82,7 +83,7 @@ CREATE TABLE experience (
 
 INSERT INTO experience (jobTitle, companyName, employmentType, startDate, endDate, description, link) VALUES 
 ('Software Engineer', 'Attica Package Company Inc.', 'Freelance', '2022-12-01', NULL, 'Created and hosted a company website. Developed a SQL database application using Microsoft Access to streamline material tracking, replacing Excel sheets. Automated report calculations and enabled data querying based on custom parameters.','https://atticapackageco.com/'),
-('Software Engineer', 'Touchstone Technology Inc.', 'Internship', '2023-03-01', '2023-12-31', 'Created a Blazor WebAssembly web app for logging employee assignments, generating reports,
+('Software Engineer', 'Touchstone Technology Inc.', 'Internship', '2023-03-01', NULL, 'Created a Blazor WebAssembly web app for logging employee assignments, generating reports,
 tracking inventory and yield, printing labels, displaying schedules, and searching part details. Implemented APIs for HTTPS requests to SQL database using Dapper. Integrated GitLab for version control. Enhanced sister company''s WinForms app by fixing device activation and miscellaneous bugs and upgrading to label printing from laser engraving.','https://touchstn.com/'),
 ('Product Zone Specialist', 'Apple', 'Full-time', '2021-07-01', '2022-01-31', 'Assisted customers in finding a device to match their needs. Developed skills in many departments to become more well-rounded, and to aid co-workers. Opened, closed, and prepared the store for review from upper management. Supported new co-workers training process through shadowing and reverse shadowing. Collaborated with co-workers to improve techniques and solve problems. First on waitlist when returning to store for seasonal employment.','https://www.apple.com/'),
 ('Produce Clerk', 'Tops Friendly Markets', 'Part-time', '2018-12-01', '2022-08-31', 'Managed inventory of various food items in the produce department. Created displays around the store to increase customer experience. Set up store for company executives. Recognized tasks that needed completion. Directed co-workers on daily tasks. Assisted other departments when called upon.','https://www.topsmarkets.com/');
